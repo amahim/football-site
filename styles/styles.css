@@ -68,6 +68,7 @@ header{
     padding: 70px 0 0 0;
 }
 .banner-left h1{
+    margin-top: 50px;
     color: rgb(255, 255, 255);
     font-size: 4rem;
     font-weight: 700;
@@ -78,17 +79,13 @@ header{
     width: 500px;
     height: 400px;
 }
-/*main*/
-
-main{
-    margin-top: 80px;
-    width: 100%;
-}
 
 /*players*/
 .players{
+    margin-top: 80px;
+    margin-bottom: 80px;
     width: 80%;
-    padding: 0vh 0vw 0vh 7vw;
+    padding: 0vh 0vw 0vh 7.3vw;
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 20px;
@@ -116,4 +113,58 @@ main{
     font-weight: 400;
     width: 90%;
     margin-top: -15px;
+}
+/*highlights*/
+.highlights{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+
+.high-left h3{
+    color: rgb(10, 8, 38);
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 60px;
+    margin-top: 30px;
+}
+.high-left p{
+    color: rgb(108, 108, 108);
+    font-size: 1rem;
+    font-weight: 400;
+    width: 70%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.high-right img{
+    width: 467px;
+    height: 337px;
+}
+
+/*footer*/
+.logo img{
+    width: 500px;
+    height: 120px;
+}
+.icons{
+    margin-top: -20px;
+}
+.icons img{
+    width: 40px;
+    height: 40px;
+}
+
+.copyright h6{
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    font-weight: 400;
+}
+footer{
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
 }
